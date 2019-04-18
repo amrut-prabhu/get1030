@@ -67,3 +67,37 @@ th#story {
 th#characteristics {
     width: 10%;
 }
+
+.widget {
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+.widget li {
+    list-style: none;
+}
+
+.widget li a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+
+.widget li a:active {
+    color: blue;
+}
+
+.widget-title {
+    color: white;
+    background-color: #666;
+    padding: 15px;
+    margin: 0px;
+}
+
+.button li {
+    display: inline-block;
+    padding: 0px 7px;
+    margin: 5px;
+    background-color: #1abc9c;
+}
