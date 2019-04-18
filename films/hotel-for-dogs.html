@@ -35,10 +35,10 @@
                 <div class="main">
                     <!-- Breadcrumb  -->
                     <div class="category">
-                        <a href="../index.html" rel="home"><span>Home</span></a> /
-                        <a href="../index.html"><span>2009</span></a> /
-                        <a href="../index.html"><span>January</span></a> /
-                        <a href="./hotel-for-dogs.html"><span>Hotel for Dogs</span></a>
+                        <a href="../index.html" rel="home" class="no-change"><span>Home</span></a> /
+                        <a href="../index.html" class="no-change"><span>2009</span></a> /
+                        <a href="../index.html" class="no-change"><span>January</span></a> /
+                        <a href="./hotel-for-dogs.html" class="no-change"><span>Hotel for Dogs</span></a>
                     </div>
 
 
@@ -49,7 +49,7 @@
                     </div>
 
                     <h4 class="table-title">Film Details</h4>
-                    <table class="wp-block-table has-fixed-layout">
+                    <table id="table-film-details" class="left-align">
                         <tbody>
                             <tr>
                                 <th>Film title</th>
@@ -57,7 +57,7 @@
                             </tr>
                             <tr>
                                 <th>Link to film</th>
-                                <td>https://www.netflix.com/sg/title/70101346</td>
+                                <td><a href="https://www.netflix.com/sg/title/70101346">Hotel for Dogs- Netflix</a></td>
                             </tr>
                             <tr>
                                 <th>Plot summary</th>
@@ -77,61 +77,75 @@
 
 
                     <h4 class="table-title">Dog Character Details</h4>
-                    <table class="wp-block-table aligncenter is-style-regular">
+                    <table>
                         <tbody>
                             <tr>
-                                <th>Name</th>
-                                <th>Prominence</th>
-                                <th>Breed</th>
-                                <th>Story line</th>
-                                <th>Appearance</th>
-                                <th>Prose description and characteristics of the dog</th>
+                                <th id="dog-name">
+                                    <span title="Main name of the dog in the movie (if any)">Name</span>
+                                </th>
+                                <th id="prominence">
+                                    <span title="The importance of the dog in the movie (3 means main character, 1 means minor character)">Prominence</span>
+                                </th>
+                                <th id="breed">
+                                    <span title="The breed of the dog (if stated)">Breed</span>
+                                </th>
+                                <th id="story">
+                                    <span title="The role played by the dog in the movie">Storyline</span
+                                </th>
+                                <th id="characteristics">
+                                    <span title="The main traits of the dog, in terms of appearance and personality">Characteristics</span
+                                </th>
                             </tr>
                             <tr>
                                 <td>Friday</td>
                                 <td>3</td>
                                 <td>Jack Russell Terrier</td>
                                 <td>First seen tied on the streets, but he manages to escape by slipping out of his collar. Stole food from a pedestrian and started rummaging trash bins. But once he heard the kids walking over, he immediately went back to sit beside his collar. The next day, while looking for food on the streets, he got caught by animal control and was sent to the pound. The kids manages to bail him out. While walking home, friday ran off into an abandoned hotel, finding Georgia and Lenny. He stays overnight with them at the hotel. He was seen through the scenes in the hotel with the other dogs. After the kids got caught by the police and all the dogs were sent to the pound. Friday manages to escape and ran to find Dave, Heather, and Mark. He later leads all the dogs to try and cross the country line. However, he suddenly turn around and ran back to the hotel, leading all the dogs with him. At the end of the movie, Friday is seen with the kids settling into their new home.</td>
-                                <td>Normal</td>
-                                <td>Portrayed as an intelligent dog that is able to escape the pound by himself and steal food for sustenance. He found the hotel and thus, started the whole hotel. (Source: Hotel for Dogs Wiki)</td>
+                                <td>Normal
+
+                                Portrayed as an intelligent dog that is able to escape the pound by himself and steal food for sustenance. He found the hotel and thus, started the whole hotel. (Source: Hotel for Dogs Wiki)</td>
                             </tr>
                             <tr>
                                 <td>Georgia</td>
                                 <td>1</td>
                                 <td>Boston Terrier</td>
                                 <td>First found in the abandoned hotel with Lenny. Hid under Lenny when she first met the kids. When the kids first started using the hotel, Georgia kept fetching things thrown away by Bruce. This gave Bruce the idea to make a machine that plays fetch with the dogs. While the kids were out, the automatic feeder malfunctioned and thus, Georgia started searching for food and found a bone. The rest of the dogs tried to snatch the bone from her but failed.</td>
-                                <td>Normal</td>
-                                <td>Shy dog that loves to play fetch. (Source: admin)</td>
+                                <td>Normal
+
+                                    Shy dog that loves to play fetch. (Source: admin)</td>
                             </tr>
                             <tr>
                                 <td>Lenny</td>
                                 <td>1</td>
                                 <td>English Mastiff</td>
                                 <td>First found in the abandoned hotel with Georgia. Georgia can be seen hiding under Lenny when they first met the kids. Started howling at a closed window the next day as he wants the window to be open. Exposes the kids and all the dogs when they are hiding from the police when he howled for the same reason.</td>
-                                <td>Normal</td>
-                                <td>Protective of Georgia. Vocal, will howl for something that he wants. (Source: admin) </td>
+                                <td>Normal
+
+                                    Protective of Georgia. Vocal, will howl for something that he wants. (Source: admin) </td>
                             </tr>
                             <tr>
                                 <td>Cooper</td>
                                 <td>1</td>
                                 <td>English Bulldog</td>
                                 <td>Adopted from a pet shop as he was given up due to his chewing issues. Seen in various scenes in the hotel chewing up pillows and shoes.</td>
-                                <td>Normal</td>
-                                <td>A chewer that tries to eat everything. (Source: admin) </td>
+                                <td>Normal
+
+                                    A chewer that tries to eat everything. (Source: admin) </td>
                             </tr>
                             <tr>
                                 <td>Romeo</td>
                                 <td>1</td>
                                 <td>Chinese Crested Dog</td>
                                 <td>Adopted from a pet shop as he was not a puppy anymore and could not be sold. First dog to test the new toilet system. Seen as a couple with another dog, a poodle named Juliet. He and Juliet are seen with their puppies at the end of the movie</td>
-                                <td>Normal</td>
-                                <td>Shy and quiet dog that will only interact with things he like. (Source: admin) </td>
+                                <td>Normal
+
+                                    Shy and quiet dog that will only interact with things he like. (Source: admin) </td>
                             </tr>
                         </tbody>
                     </table>
 
                     <h4 class="table-title">Metadata</h4>
-                    <table class="wp-block-table">
+                    <table class="left-align">
                         <tbody>
                             <tr>
                                 <th>Date of release</th>

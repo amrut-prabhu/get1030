@@ -1,7 +1,9 @@
-table,
-th,
-td {
-    border: 1px solid black;
+.no-change:visited {
+    color: #007bff;
+}
+
+.no-change:active {
+    color: red;
 }
 
 .category {
@@ -18,15 +20,50 @@ td {
     text-align: center;
 }
 
+.left-align {
+    text-align: left;
+}
+
+.table-title {
+    font-size: 20px;
+    margin-top: 40px;
+    text-align:center;
+}
+
 table {
     margin: 5px auto;
 }
 
-.table-title {
-    margin-top: 40px; 
-    text-align:center;
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
 }
 
 th {
     background-color: #67dbc4;
+}
+
+#table-film-details th {
+    width: 15%;
+}
+
+th#dog-name {
+    width: 10%;
+}
+
+th#prominence {
+    width: 10%;
+}
+
+th#breed {
+    width: 10%;
+}
+
+th#story {
+    width: 60%;
+}
+
+th#characteristics {
+    width: 10%;
 }
