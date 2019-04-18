@@ -21,41 +21,94 @@ body {
   font-size: 40px;
 }
 
-/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
-.navbar {
+/* Sticky dw-navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the dw-navbar will inherit default position */
+.dw-navbar {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: #333; */
+  background: #1abc9c;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
 }
 
 /* Style the navigation bar links */
-.navbar a {
+.dw-navbar a {
   float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 19px 20px;
   text-decoration: none;
+  line-height: normal;
 }
 
+.dw-navbar form {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
 
-/* Right-aligned link */
-.navbar a.right {
+/* Right-aligned search form */
+.right {
   float: right;
 }
 
+.dw-search-field, #i {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    width: 250px;
+    height: 35px;
+    padding: 1px;
+    border: none;
+}
+
+input.dw-search-submit, input [type=submit] {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #666;
+    border: none;
+    border-radius: 0;
+    font: 400 13.3333px Arial;
+}
+
+.dw-search-submit:hover {
+    background-color: black;
+}
+
 /* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.dw-navbar a:hover {
+  background-color: black;
+  color: white;
 }
 
 /* Active/current link */
-.navbar a.active {
+.dw-navbar a.active {
   background-color: #666;
   color: white;
+}
+
+.dw-navbar a.active:hover {
+  background-color: black;
+  color: white;
+}
+
+a #dw-navbar-logo {
+    display: inline;
+    height: 52.5px;
+    padding: 0px;
+}
+
+a #dw-navbar-logo:hover, .dw-navbar a.a-logo {
+    background: #1abc9c
+}
+
+a.a-logo {
+    padding: 0px 10px;
 }
 
 /* Column container */
@@ -106,7 +159,7 @@ body {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-  .navbar a {
+  .dw-navbar a {
     float: none;
     width: 100%;
   }

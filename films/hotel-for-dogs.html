@@ -15,45 +15,23 @@
     <link rel="stylesheet" id="academic-hub-custom-css" href="https://digitalhumanities.sg/group8/wp-content/themes/academic-hub/assets/css/custom.css?ver=1.0.8" type="text/css" media="all">
 
     <link href="../css/films.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-
-        <div class="container">
-            <div class="row">
-                <form role="search" method="get" class="search-form" action="https://digitalhumanities.sg/group8/">
-                    <label>
-                        <span class="screen-reader-text">Search for:</span>
-                        <input type="search" class="search-field" placeholder="Search..." value="" name="s">
-                    </label>
-                    <input type="submit" class="search-submit" value="Search">
-                </form>
-            </div>
+    <div class="dw-navbar">
+        <a class="a-logo" href="../index.html"><img id="dw-navbar-logo" src="../assets/logo.png" alt="DoggyWood Logo" /></a>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../index.html">Search</a>
+        <a href="../about.html">About Us</a>
+        <a href="./hotel-for-dogs.html">Hotel For Dogs</a>
+        <div class="right">
+            <form role="search" method="get" class="search-form" action="https://digitalhumanities.sg/group8/">
+                <input type="search" id="i" class="dw-search-field" placeholder="Search DoggyWood for movies..." value="" name="s">
+                <input type="submit" class="dw-search-submit" value="Search">
+            </form>
         </div>
-
-        <!-- navigation part -->
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <!-- Header Section -->
-                <div class="navbar-header">
-                    <div class="site-branding">
-                        <h1 class="site-title"><a href="../index.html" rel="home">Doggywood</a></h1>
-                        <p class="site-description">An archive of dog movies</p>
-                    </div>
-                    <!-- .site-branding -->
-                </div>
-
-                <ul id="menu-1" class="nav navbar-nav navbar-right">
-                    <li class="page_item page-item-2"><a href="https://digitalhumanities.sg/group8/sample-page/">About us</a></li>
-                </ul>
-                <!-- #Header Section -->
-            </div>
-            <!-- /.container -->
-        </nav>
-        <!-- #navigation part -->
     </div>
-    <!-- End Header -->
 
     <!-- Breadcrumb  -->
     <nav id="breadcrumb" class="academic-hub-breadcrumb academic-hub-breadcrumb--light">
@@ -264,9 +242,9 @@
                                 <form role="search" method="get" class="search-form" action="https://digitalhumanities.sg/group8/">
                                     <label>
                                         <span class="screen-reader-text">Search for:</span>
-                                        <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                                        <input type="search" class="dw-search-field" placeholder="Search …" value="" name="s">
                                     </label>
-                                    <input type="submit" class="search-submit" value="Search">
+                                    <input type="submit" class="dw-search-submit" value="Search">
                                 </form>
                             </div>
 
