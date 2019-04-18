@@ -21,6 +21,10 @@ body {
   font-size: 40px;
 }
 
+.center {
+    text-align:center;
+}
+
 /* Sticky dw-navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the dw-navbar will inherit default position */
 .dw-navbar {
   overflow: hidden;
@@ -110,6 +114,18 @@ a #dw-navbar-logo:hover, .dw-navbar a.a-logo {
 
 a.a-logo {
     padding: 0px 10px;
+}
+
+#random-list {
+    text-align: center;
+}
+
+#random-list a {
+    text-decoration: none;
+}
+
+#random-list img {
+    height: 225px;
 }
 
 /* Column container */
