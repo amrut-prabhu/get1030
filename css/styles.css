@@ -29,6 +29,7 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 10;
 }
 
 /* Style the navigation bar links */
@@ -145,9 +146,16 @@ a.a-logo {
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
   background: #ddd;
+  text-align: center;
+}
+
+#footer-logo {
+    text-align: left;
+    text-align: left;
+    height: 125px;
+    vertical-align: middle;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
