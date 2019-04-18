@@ -6,6 +6,10 @@
     color: red;
 }
 
+figure img {
+    height: 450px;
+}
+
 .category {
     font-size: 18px;
     padding: 10px 0px;
@@ -106,9 +110,21 @@ th#characteristics {
     background-color: #ccc;
     display: inline-block;
     width: 45%;
-    height: 150px;
+    height: 110px;
     margin: 10px;
     padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a.norm p {
+    color: black;
+}
+
+.norm {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .title-link {
