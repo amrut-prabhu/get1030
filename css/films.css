@@ -101,3 +101,19 @@ th#characteristics {
     margin: 5px;
     background-color: #1abc9c;
 }
+
+.related-details {
+    background-color: #ccc;
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.title-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
