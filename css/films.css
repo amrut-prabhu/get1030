@@ -4,21 +4,29 @@ td {
     border: 1px solid black;
 }
 
-#footer {
-    height: 50px;
-}
-
 .category {
-    font-size: 20px;
-    /* padding: 30px; */
-    /* padding-left: 50px; */
+    font-size: 18px;
+    padding: 10px 0px;
 }
 
-/* h2 {
-    font-weight: bold;
-} */
-/*
-.container {
-    margin: 10px;
-    margin-left: 30px;
-} */
+.dw-title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dw-poster {
+    text-align: center;
+}
+
+table {
+    margin: 5px auto;
+}
+
+.table-title {
+    margin-top: 40px; 
+    text-align:center;
+}
+
+th {
+    background-color: #67dbc4;
+}
