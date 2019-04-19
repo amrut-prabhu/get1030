@@ -53,7 +53,7 @@ th {
 }
 
 th#dog-name {
-    width: 10%;
+    width: 20%;
 }
 
 th#prominence {
@@ -61,15 +61,15 @@ th#prominence {
 }
 
 th#breed {
-    width: 10%;
-}
-
-th#story {
-    width: 50%;
-}
-
-th#characteristics {
     width: 20%;
+}
+
+th#appearance {
+    width: 20%;
+}
+
+th#personality {
+    width: 30%;
 }
 
 .widget {
