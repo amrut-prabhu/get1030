@@ -144,6 +144,14 @@ a.a-logo {
     font-size: 15px;
 }
 
+#contributors li {
+    line-height: 50px;
+}
+
+#contributors li ul li {
+    line-height: 30px;
+}
+
 /* Column container */
 .row {
   display: -ms-flexbox; /* IE10 */
